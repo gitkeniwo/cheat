@@ -1,0 +1,15 @@
+# Print without borders (decorations) and line numbers
+bar -p
+
+# Print with only line numbers, but no borders (decorations)
+bat -n
+
+# Set the language for syntax highlighting:
+cmd --help | bat -l help
+bat --language <language> <file.<language extension>>
+
+# Show and highlight non-printable characters:
+bat -A <file>
+
+# Display all supported languages:
+bat --list-languages

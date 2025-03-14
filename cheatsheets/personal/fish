@@ -1,0 +1,9 @@
+# edit function
+funced <function_name>
+
+# show interative config web viewer
+fish_config
+
+# edit config.fish
+nvim ~/.config/fish/config.fish
+
